@@ -1,10 +1,14 @@
 import React from "react";
+import './Page.css';
 
 function About(){
     return (
-        <h1>
-            Testing About Page!!!
-        </h1>
+        <div className="page">
+            <h1>About Me</h1>
+           
+         
+        </div>
+
     )
 }
 

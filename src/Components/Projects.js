@@ -1,10 +1,11 @@
 import React from "react";
+import './Page.css';
 
 function Projects(){
     return (
-        <h1>
+        <div className="page">
             Testing Projects Page!!!
-        </h1>
+        </div>
     )
 }
 

@@ -1,10 +1,11 @@
 import React from "react";
+import './Page.css';
 
 function Contact(){
     return (
-        <h1>
+        <div className="page">
             Testing Contact Page!!!
-        </h1>
+        </div>
     )
 }
 
