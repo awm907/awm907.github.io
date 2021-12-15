@@ -1,24 +1,25 @@
-import logo from './abdul-wahab.png';
+import React from 'react';
+import Home from './Components/Home';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Projects from './Components/Projects';
+import Navigation from './Components/Navigation';
+import { Route , Routes , BrowserRouter as Router } from 'react-router-dom';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is Abdul Wahab and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/awm907"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigation/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/projects" element={<Projects/>} />
+      </Routes>
+    </Router>
+
   );
 }
 
