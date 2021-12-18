@@ -1,11 +1,13 @@
 import React from "react";
 import './Page.css';
+import image from '../bg.jpg'
 
 function Contact(){
     return (
-        <div className="page">
-            Testing Contact Page!!!
+        <div style={{backgroundImage: 'url('+image+')', backgroundSize:"cover", height: "100vh"}} className="page">
+   
         </div>
+  
     )
 }
 
