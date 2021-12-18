@@ -13,6 +13,7 @@
     font-style: italic;
     font-size: 35px;
     padding: 10px;
+    color: blanchedalmond;
 
 }
 
@@ -38,13 +39,13 @@
     position: absolute;
     bottom: 100px;
     margin-left: 45%;
-    color: black;
+    color: lightyellow;
 
 }
 
 .col{
     
-    color: black;
+    color: hotpink;
    
     
 }
@@ -74,10 +75,22 @@
 .header{
     font:status-bar;
     font-size: 2rem;
-    color: black;
+    color: lightblue;
     text-decoration-line: underline;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration-style: double;
-    ;
+    padding-top: 2rem;
+
+}
+
+.zoom{
+    color: blanchedalmond;
+    font-size: 1.4rem;
+    font-family: cursive;
+   
+
+}
+.zoom:hover{
+    font-size: 2rem; 
 
 }

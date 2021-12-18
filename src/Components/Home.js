@@ -9,7 +9,7 @@ function Home(){
             
             <img src={image} className= "pic"/>
             <div className='head1'>Abdul Wahab Malik</div>
-            <footer>Welcome to My Portfolio!</footer>
+            <div className="zoom">Welcome to My Portfolio!</div>
         </div>
     )
 }
